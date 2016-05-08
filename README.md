@@ -1,2 +1,2 @@
 # PacMan-Game
-A game in Python targeted to get indulged with OOPS techniques
+A game in Python done to indulge with OOPS techniques
