@@ -23,33 +23,36 @@
 	20x55 play grid
 """
 
-grid = []
-#row0 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
-grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
-grid.append("xx...................................................xx")
-grid.append("xx...xx.........................................xx...xx")
-grid.append("xx....xx.......................................xx....xx")
-grid.append("xx.....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.....xx")
-grid.append("xx...................................................xx")
-grid.append("xx...................................................xx")
-grid.append("xx...................................................xx")
-grid.append("xx........xxxxxxx.......xxxxxxx.......xxxxxxx........xx")
-grid.append("xx........x.....x.......x.....x.......x..............xx")
-grid.append("xx........x.....x.......x.....x.......x..............xx")
-grid.append("xx........x..xxxx.......x.xxx.x.......x..............xx")
-grid.append("xx........x.............x.....x.......x..............xx")
-grid.append("xx........x.............x.....x.......x..............xx")
-grid.append("xx........x.............x.....x.......xxxxxxx........xx")
-grid.append("xx...................................................xx")
-grid.append("xx...................................................xx")
-grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
-grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+def create_grid():
+	grid = []
 
-print
-print
-for i in grid:
-	print i
+	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+	grid.append("xx...................................................xx")
+	grid.append("xx...xx.........................................xx...xx")
+	grid.append("xx....xx.......................................xx....xx")
+	grid.append("xx.....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.....xx")
+	grid.append("xx...................................................xx")
+	grid.append("xx...................................................xx")
+	grid.append("xx...................................................xx")
+	grid.append("xx........xxxxxxx.......xxxxxxx.......xxxxxxx........xx")
+	grid.append("xx........x.....x.......x.....x.......x..............xx")
+	grid.append("xx........x.....x.......x.....x.......x..............xx")
+	grid.append("xx........x..xxxx.......x.xxx.x.......x..............xx")
+	grid.append("xx........x.............x.....x.......x..............xx")
+	grid.append("xx........x.............x.....x.......x..............xx")
+	grid.append("xx........x.............x.....x.......xxxxxxx........xx")
+	grid.append("xx...................................................xx")
+	grid.append("xx...................................................xx")
+	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
-print
-print
+	return grid
+
+def print_grid(grid):
+	print
+	print
+	for i in grid:
+		print i
+	print
+	print
