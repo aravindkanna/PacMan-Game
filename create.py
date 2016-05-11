@@ -26,33 +26,38 @@
 def create_grid():
 	grid = []
 
-	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
-	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
-	grid.append("xx...................................................xx")
-	grid.append("xx...xx.........................................xx...xx")
-	grid.append("xx....xx.......................................xx....xx")
-	grid.append("xx.....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.....xx")
-	grid.append("xx...................................................xx")
-	grid.append("xx...................................................xx")
-	grid.append("xx...................................................xx")
-	grid.append("xx........xxxxxxx.......xxxxxxx.......xxxxxxx........xx")
-	grid.append("xx........x.....x.......x.....x.......x..............xx")
-	grid.append("xx........x.....x.......x.....x.......x..............xx")
-	grid.append("xx........x..xxxx.......x.xxx.x.......x..............xx")
-	grid.append("xx........x.............x.....x.......x..............xx")
-	grid.append("xx........x.............x.....x.......x..............xx")
-	grid.append("xx........x.............x.....x.......xxxxxxx........xx")
-	grid.append("xx...................................................xx")
-	grid.append("xx...................................................xx")
-	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
-	grid.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+	grid.append(list("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
+	grid.append(list("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
+	grid.append(list("xx...................................................xx"))
+	grid.append(list("xx...xx.........................................xx...xx"))
+	grid.append(list("xx....xx.......................................xx....xx"))
+	grid.append(list("xx.....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.....xx"))
+	grid.append(list("xx...................................................xx"))
+	grid.append(list("xx...................................................xx"))
+	grid.append(list("xx...................................................xx"))
+	grid.append(list("xx........xxxxxxx.......xxxxxxx.......xxxxxxx........xx"))
+	grid.append(list("xx........x.....x.......x.....x.......x..............xx"))
+	grid.append(list("xx........x.....x.......x.....x.......x..............xx"))
+	grid.append(list("xx........x..xxxx.......x.xxx.x.......x..............xx"))
+	grid.append(list("xx........x.............x.....x.......x..............xx"))
+	grid.append(list("xx........x.............x.....x.......x..............xx"))
+	grid.append(list("xx........x.............x.....x.......xxxxxxx........xx"))
+	grid.append(list("xx...................................................xx"))
+	grid.append(list("xx...................................................xx"))
+	grid.append(list("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
+	grid.append(list("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
 
 	return grid
+
+def print_list(l):
+	for i in l:
+		print i,
+	print
 
 def print_grid(grid):
 	print
 	print
 	for i in grid:
-		print i
+		print_list(i)
 	print
 	print
