@@ -7,11 +7,10 @@ class Ghost(Person):
 		self.y = y
 		grid[x][y] = 'G'
 
-	"""def is_move(self, grid, x, y):
-		if grid[x][y] == 'x':
-			return false
-		return true
-		"""
+	def is_move(self, grid, x, y):
+		if grid[x][y]=='x' or grid[x][y]=='C' or grid[x][y]=='G' :
+			return False
+		return True
 
 	def set_pos(self, grid):
 		grid[self.x][self.y] = 'G'
