@@ -87,6 +87,16 @@ while 1:
 
 	score = p.get_score()
 
+	"""
+	print "Pacman: ",
+	print p.get_point()
+	for i in pnts:
+		print i,
+	print
+	"""
+
+	p.set_pos(grid)
+
 	if end:
 		print "*******GAME*********OVER*******"
 		print "Your Score: ",
