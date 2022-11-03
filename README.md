@@ -3,7 +3,7 @@ A game in Python done to indulge with OOPS techniques.<br>
 ##So How to play??
 
 Simple...just download the code and get into the directory.<br>
-Run `python game.py` and boom..there it is..!!!<br>
+Run `python2 game.py` and boom..there it is..!!!<br>
 ##Controls:
 `w` for upward<br>
 `s` for downward<br>
